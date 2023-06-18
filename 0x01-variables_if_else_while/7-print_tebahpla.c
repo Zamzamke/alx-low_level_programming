@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: (0)
+ * main - entry point
+ * description - print alphabetical numbers in reverse
+ * Return: Always zero
  */
 int main(void)
 {
-	char ch;
+	int n = 122;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	while (n >= 97)
 	{
-		putchar(ch);
+		putchar(n);
+		n--;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
